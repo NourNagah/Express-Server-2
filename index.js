@@ -9,7 +9,7 @@ const app = express();
 const PORT = 3000;
 app.use(express.json({ limit: "50mb" }));
 app.use(cors({
-  origin:["http://127.0.0.1:5501/index.html","http://127.0.0.1:5501", "https://darderaz.netlify.app/", "https://darderaz.netlify.app/"]
+  origin:["http://127.0.0.1:5501/index.html","http://127.0.0.1:5501", "https://darderaz.netlify.app/login", "https://darderaz.netlify.app/"]
 }));
 app.use(router);
 const uri="mongodb+srv://Nour_Nagah:sJynekMfErphK5PW@cluster0.sa0dvbr.mongodb.net/?retryWrites=true&w=majority";
