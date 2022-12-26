@@ -1,7 +1,7 @@
 const express = require("express"); // express application
 const mongoose = require("mongoose");
-const User= require('./user');
-const router=require('./routes');
+const User= require('./src/user');
+const router=require('./src/routes');
 const bodyParser=require('body-parser');
 const cors = require('cors');
 
